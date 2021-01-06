@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontWeight: 'bold',
         fontSize: 24,
+        color: 'black'
     },
     teacherText: {
         textAlign: 'center',
@@ -42,8 +43,9 @@ const styles = StyleSheet.create({
     percentRateText: {
         textAlign: 'center',
         fontWeight: 'bold',
-        fontSize: 24,
-        paddingBottom: 10
+        fontSize: 20,
+        paddingBottom: 10,
+        color: 'white'
     }
 
 })

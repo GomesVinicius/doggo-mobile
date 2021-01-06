@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         marginBottom: 230,
     },
     contactButton: {
-        height: '80%',
+        height: '45%',
         width: '90%',
         backgroundColor: '#fff',
         marginTop: '100%',

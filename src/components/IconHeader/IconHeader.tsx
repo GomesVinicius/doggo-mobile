@@ -2,7 +2,11 @@ import React from 'react';
 import { Feather } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native';
 
-function IconHeader() {
+interface IconProps {
+    parameter?: string
+}
+
+const IconHeader: React.FC = () => {
     const nav = useNavigation();
 
     function handleToChangePassword() {

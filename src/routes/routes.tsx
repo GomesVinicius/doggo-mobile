@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Login from '../pages/Login/index';
 import Rates from '../pages/Rates/index';
@@ -9,9 +9,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import IconHeader from '../components/IconHeader/IconHeader';
 
-function Routes() {
+const Routes = () => {
     const Stack = createStackNavigator();
-
 
     return (
         <NavigationContainer>

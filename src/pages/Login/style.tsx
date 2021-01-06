@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        
         flexDirection: 'column'
     },
     top: {
@@ -63,7 +63,8 @@ const styles = StyleSheet.create({
         color: '#32264D',
     },
     inputArea: {
-        margin: 24
+        margin: 24,
+        marginTop: 0
     },
     input: {
         fontFamily: 'Poppins_400Regular',
