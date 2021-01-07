@@ -35,24 +35,25 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        marginBottom: 230,
+        bottom: 30,
     },
     contactButton: {
-        height: '45%',
+        height: '15%',
         width: '90%',
         backgroundColor: '#fff',
         marginTop: '100%',
         borderRadius: 8,
     },
     contactButtonText: {
-        flex: 1,
         alignSelf: 'center',
+        justifyContent: 'center',
         paddingRight: 20,
         color: '#000',
         fontFamily: 'Archivo_400Regular',
-        fontSize: 16,
+        fontSize: 24,
+        marginTop: 17,
         marginLeft: 16,
-        lineHeight: 52,
+        
     }
 })
 

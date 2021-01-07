@@ -26,9 +26,7 @@ const Routes = () => {
                     name="Rates"
                     component={Rates}
                     options={() => ({
-                        headerRight: () => (
-                            <IconHeader />
-                        ),
+                        //headerRight: () => (),
                         headerLeft: () => (<></>),
                         title: 'Notas'
                     })}

@@ -37,15 +37,15 @@ function Rates({ route }: any) {
                 hidden={false}
                 backgroundColor="#fff"
             />
-
-            <RectButton onPress={handleToChangePassword}>
-                <IconHeader />
-            </RectButton>
-
-            <KeyboardAvoidingView
-                behavior={Platform.OS == "ios" ? "padding" : "height"}
+            <View
                 style={{ flex: 1 }}
             >
+
+                <RectButton style={{}} onPress={handleToChangePassword}>
+                    <Text>Alterar senha</Text>
+                </RectButton>
+
+
                 <View style={styles.container}>
                     <View style={styles.background}>
                         <View style={styles.areaRate}>
@@ -58,7 +58,7 @@ function Rates({ route }: any) {
                         </View>
                     </View>
                 </View>
-            </KeyboardAvoidingView>
+            </View>
         </>
     )
 }
